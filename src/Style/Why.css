@@ -1,0 +1,60 @@
+.why{ 
+    background: #F2F2F2;
+    min-width: 100%;
+    text-align: center;
+}
+.why h1{
+     padding-top: 3rem;
+}
+.why h2{
+    padding-bottom: 1rem;
+}
+.why p{
+    font-size: 17px;
+}
+.whytext{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    /* padding:0 5rem;  */
+   
+}
+.Bitimg{
+    width: 10rem;
+}
+.whying{
+    width: 28vw;
+    height: 50vh;
+    padding: 2rem;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.why button{
+    width:15vw;
+    height: 5vh;
+    color: #7C1FBF;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.whying2{
+    margin: 20rem 20rem;
+}
+.ask{
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width:768px){
+    .whytext {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .whying{
+        height: inherit;
+        min-width:70vw;
+        margin:1.5rem auto ;
+    }
+
+    
+}

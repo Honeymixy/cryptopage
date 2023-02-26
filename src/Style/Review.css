@@ -1,0 +1,88 @@
+.customerword{ 
+    background-color: #F2F2F2;
+}
+.firstimg{
+    width:25rem;
+}
+.secondimg{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+
+}
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+   color: #26093A;
+}
+.customerreview{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* place-content: center; */
+    text-align: center;
+}
+.review{
+    position: relative;
+}
+.inword{
+    position: absolute;
+    /* bottom: 3rem; */
+    top: 50px;
+    left: 20%;
+    display: flex;
+    color: white;
+    transform: translateX(30px 30px);
+
+}
+.word{
+     width: 13rem; 
+}
+.nametag{
+    display: flex;
+    padding:0 7rem 7rem;
+    gap:2rem;
+    text-align: justify;
+    
+}
+
+@media screen and (max-width:1100px) {
+    .customerreview{
+      display: grid;
+       grid-template-columns: repeat(1 ,1fr); 
+    }
+    .nametag{
+        display: flex;
+        padding: 0  12rem 3rem ; 
+        /* padding-left: 12rem; */
+        gap:5rem;
+        text-align: justify;
+        
+    }
+     .inword{
+        left: 30%;
+        text-align: center;
+        bottom: 2rem;
+    } 
+}
+
+@media screen and (max-width:450px) {
+    .customerreview{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+      }
+    .nametag{
+        padding:1rem 3rem ;
+    }
+    .inword{
+        left:15%;
+    } 
+    .firstimg{
+        width:90%;
+    }
+    .word{
+        width: 14rem;
+        
+    }
+}

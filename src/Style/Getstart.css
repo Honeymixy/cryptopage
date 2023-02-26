@@ -1,0 +1,28 @@
+.getstart{
+    text-align: center;
+    padding-top: 5rem;
+}
+.startbnt{
+    width: 250px;
+    height: 3rem;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    background-color: #7C20BF;
+}
+.playstore{
+    text-align: center;
+}
+.download{
+    color: #7C20BF ;
+    text-align: justify;
+}
+.logo{
+    display: flex;
+    padding:0.2rem 0.5rem;
+}
+.gogglelogo{
+    margin: .3rem; 
+    height: 2.5rem;
+    
+}

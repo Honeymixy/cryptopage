@@ -1,0 +1,32 @@
+.display {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  border: 2px solid white;
+  /* margin-left: 2rem; */
+  /* padding:0 3rem; */
+  display:flex ;
+  justify-content: center;
+}
+.boxes {
+  width: 25vw;
+  /* height: 5rem;  */
+  box-shadow: 0 6px 10px rgb(112, 112, 112, 0.21);
+  background: #f7f7fa;
+  padding: 2rem 1rem ;
+}
+.symbol{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:768px){
+    .display{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .boxes {
+      width:50vw;
+    }
+    
+    
+}

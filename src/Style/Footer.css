@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:2rem;
+    /* padding-left: 8rem; */
+    color:#26093A;
+    text-align: justify;
+    display: flex;
+   justify-content: space-around;    
+}
+.product ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+ .copyright{
+     text-align: center; 
+     background-color: #F2F2F2;
+     color: #26093A;
+} 
+@media screen and (max-width:768px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        margin-left: 2rem;
+    
+    }
+}
+@media screen and (max-width:468px) {
+    .footer{
+        grid-template-columns: repeat(2,2fr);
+        margin-left: 2rem;
+    }  
+}
+

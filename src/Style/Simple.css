@@ -1,0 +1,42 @@
+.simple{
+    text-align: center;
+    background: #F2F2F2;
+}
+.explain{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.buy{
+    padding: 3rem;
+}
+.numb{
+    display: flex;
+    gap: .5rem;
+}
+.no{
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 2rem;
+    color: white;
+    box-shadow: 0px 3px 8px  #b566ed;
+    opacity: 5px;
+}
+
+.simtext{
+ padding-left: 2.5rem; 
+ text-align: justify;
+}
+
+
+@media screen and (max-width:920px){
+    .explain{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .explain img{
+        width: 45vh;
+    }
+    
+}
