@@ -9,9 +9,9 @@ const Review = () => {
       <h2 className="customer">Customer's Review</h2>
       <div className="customerreview">
         {reviews.map((review) => {
-          const { img, articles, img2, country, name } = review;
+          const { img, articles, img2, country, name,id } = review;
           return (
-            <div>
+            <div  key={id}>
               <div className="review">
                 <img  className="firstimg" src={img} alt="" />
                 <div className="inword">

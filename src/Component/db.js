@@ -11,22 +11,22 @@ import oyin from '../Assets/oyin.jpg'
 
 export const otherimg = [
   {
-    img: image,
+    img: image,id:1
   },
-  { img: image2 },
-  { img: image },
+  { img: image2 ,id:2},
+  { img: image,id:3 },
 ];
 
 export const whyimg = [
-  {img:bitimg,
+  {id:1,img:bitimg,
     title: "Easy Mode of Payment",
     article:
       "People can now easily send and receive money from anywhere in the world to purchase goods and pay for services."},
-  {img:bitimg2,title:'Financial Freedom', article:'Just like the internet no single entity controls the Crypto network which provides users transparency and privacy, which puts you in absolute control of your money.'},
-  {img:bitimg3,title:'Investment',article:'The constant demand as made Cryptocurrecies a Digital Gold used for alternative store of wealth on long term investments.'},
+  {id:2,img:bitimg2,title:'Financial Freedom', article:'Just like the internet no single entity controls the Crypto network which provides users transparency and privacy, which puts you in absolute control of your money.'},
+  {id:3,img:bitimg3,title:'Investment',article:'The constant demand as made Cryptocurrecies a Digital Gold used for alternative store of wealth on long term investments.'},
 ];
 
 export const reviews = [
-  {img:board,name:'Oyin',country:'France',img2:oyin, articles:'Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate.'}
-,{img:board,name:'Ibee', country:'Nigeria',img2:ibee, articles:'They have the best rate compared to other platforms with fast payout.'}
-,{img:board,name:'Oke',country:'Dubai',img2:oke, articles:'Easy to fund and withdraw coins or cash on their platform, I will definitely trade with them again.'}]
+  {id:1,img:board,name:'Oyin',country:'France',img2:oyin, articles:'Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate.'}
+,{id:2,img:board,name:'Ibee', country:'Nigeria',img2:ibee, articles:'They have the best rate compared to other platforms with fast payout.'}
+,{id:3,img:board,name:'Taiwo',country:'Dubai',img2:oke, articles:'Easy to fund and withdraw coins or cash on their platform, I will definitely trade with them again.'}]

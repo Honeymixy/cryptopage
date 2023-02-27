@@ -10,9 +10,9 @@ const Why = () => {
       <h1>Why do people get involved with Cryptocurrencies?</h1>
       <div className="whytext">
         {whyimg.map((yesimg) => {
-          const { title, article, img } = yesimg;
+          const { title, article, img ,id} = yesimg;
           return (
-            <div className="whying">
+            <div className="whying" key={id}>
               <div>
                 <img className="Bitimg" src={img} alt="" />
                 <h2>{title}</h2>
